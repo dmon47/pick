@@ -13,7 +13,7 @@ import {StyleSheet} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
-import ListPage from './ts/pages/ListPage/ListPage';
+import ContentsListPage from './ts/pages/ContentsListsPage/ContentsListsPage';
 import Header from './ts/components/Header';
 
 declare const global: {HermesInternal: null | {}};
@@ -22,7 +22,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <ListPage />
+      <ContentsListPage />
     </>
   );
 };

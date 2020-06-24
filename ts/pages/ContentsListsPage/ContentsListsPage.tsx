@@ -3,7 +3,7 @@ import {Card, Text} from 'react-native-elements';
 
 interface OwnProps {}
 
-const ListPage: React.FC<OwnProps> = () => {
+const ContentsListPage: React.FC<OwnProps> = () => {
   const [lists, setLists] = useState([
     {title: 'aaa', description: 'description'},
     {title: 'aaa', description: 'description'},
@@ -21,4 +21,4 @@ const ListPage: React.FC<OwnProps> = () => {
   );
 };
 
-export default ListPage;
+export default ContentsListPage;
